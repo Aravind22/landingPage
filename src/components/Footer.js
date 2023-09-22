@@ -27,7 +27,7 @@ const Footer = ({scrollToHomeComponet,scrollToWorkComponent,scrollToContactCompo
           <span onClick={scrollToContactComponent}>Contact</span>
         </div>
         <div className="footer-section-columns">
-          <span>info@dexwox.com</span>
+          <span>cookzy.help@gmail.com</span>
         </div>
         <div className="footer-section-columns">
           <span>Terms & Conditions</span>
