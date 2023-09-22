@@ -7,6 +7,7 @@ import Work from "./Work"
 import Contact from "./Contact"
 import Footer from './Footer'
 import { FiArrowRight } from "react-icons/fi"
+import Question from './Question'
 
 export const Home = () => {
 
@@ -69,7 +70,7 @@ export const Home = () => {
                         Discover personalized recipes, create effortless meal plans, and savor every bite.
                     </p>
                     <button className='secondary-button' onClick={scrollToContactComponent}>
-                        Sign up <FiArrowRight />
+                        Join waitlist <FiArrowRight />
                     </button>
                 </div>
                 <div className='home-image-container'>
@@ -77,6 +78,7 @@ export const Home = () => {
                 </div>
             </div>
             <About scrollToWorkComponent={scrollToWorkComponent} aboutComponetRef={aboutComponetRef} />
+            <Question />
             <Work workComponentRef={workComponentRef} />
             <Contact contactComponentRef={contactComponentRef} />
             <Footer scrollToHomeComponet={scrollToHomeComponet}

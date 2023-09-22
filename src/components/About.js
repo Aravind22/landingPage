@@ -12,7 +12,7 @@ const About = ({scrollToWorkComponent, aboutComponetRef}) => {
             <div className='about-section-image-container'>
                 <img src={AboutImage} alt='' />
             </div>
-            <div className='about-section-text-section'>
+            <div className='about-text-container'>
                 <p className='primary-subheading'>
                     About
                 </p>

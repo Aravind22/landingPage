@@ -19,7 +19,7 @@ const Contact = ({ contactComponentRef }) => {
 
     const handleClick = async () => {
         try {
-            const response = await axios.post('http://3.109.154.232:5001/enroll', {
+            const response = await axios.post('https://cookzy.dexwox.com/enroll', {
                 email: userInput,
             });
             if (response.status === 200) {
