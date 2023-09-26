@@ -12,12 +12,12 @@ const Footer = ({scrollToHomeComponet,scrollToWorkComponent,scrollToContactCompo
         <div className="footer-logo-container">
           <img src={Cookzy} alt="" />
         </div>
-        {/* <div className="footer-icons">
-          <BsTwitter />
-          <SiLinkedin />
-          <BsYoutube />
-          <FaFacebookF />
-        </div> */}
+        <div className="footer-icons"> 
+          <BsTwitter onClick={() => window.open('https://twitter.com/CookzySupport')} />
+          {/* <SiLinkedin />
+          <BsYoutube /> */}
+          <FaFacebookF onClick={() => window.open('https://www.facebook.com/profile.php?id=61551885539515')}/>
+        </div>
       </div>
       <div className="footer-section-two">
         <div className="footer-section-columns">

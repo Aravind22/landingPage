@@ -207,6 +207,7 @@ nav {
 }
 .footer-icons {
   margin-top: 2.5rem;
+  cursor: pointer;
 }
 .footer-icons svg {
   font-size: 1.5rem;

@@ -8,6 +8,7 @@ import Contact from "./Contact"
 import Footer from './Footer'
 import { FiArrowRight } from "react-icons/fi"
 import Question from './Question'
+import Benefits from './Benefits'
 
 export const Home = () => {
 
@@ -80,6 +81,7 @@ export const Home = () => {
             <About scrollToWorkComponent={scrollToWorkComponent} aboutComponetRef={aboutComponetRef} />
             <Question />
             <Work workComponentRef={workComponentRef} />
+            <Benefits />
             <Contact contactComponentRef={contactComponentRef} />
             <Footer scrollToHomeComponet={scrollToHomeComponet}
                 scrollToWorkComponent={scrollToWorkComponent}
